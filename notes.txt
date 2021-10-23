@@ -1,0 +1,15 @@
+var time = 0
+var timer = setInterval(() => {
+    time += 2
+    if (time > 5) {
+        clearInterval(timer)
+    }
+    console.log(time + "seconds have elapsed");
+}, 2000)
+
+//__dirname
+console.log(__dirname);
+//__filename
+console.log(__filename);
+
+//require module exports
